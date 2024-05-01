@@ -6,10 +6,10 @@ const Dashboard = () => {
 
     const [image, setImage] = useState(null);
 
-    const handleChange = (event) => {
+    const handleChange = (event: any) => {
         const file = event.target.files[0];
         if (file) {
-            const reader = new FileReader();
+            const reader: any = new FileReader();
             reader.onload = () => {
                 setImage(reader.result);
             };
