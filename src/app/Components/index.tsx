@@ -8,7 +8,7 @@ import Header from './common/header'
 import { useSelector } from 'react-redux'
 
 const Index = () => {
-    const toShow = useSelector((state) => state?.feature?.toShow)
+    const toShow = useSelector((state: any) => state?.feature?.toShow)
     const [student, setStudent] = useState(false)
     const [parent, setParent] = useState(false)
     const [teacher, setTeacher] = useState(false)
