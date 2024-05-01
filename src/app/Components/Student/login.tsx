@@ -10,7 +10,7 @@ import { counter } from '../redux/slice/state';
 const Login = () => {
     const [formData, setFormData] = useState({ email: '', password: '' });
     const [show, setShow] = useState(true);
-    const toShow = useSelector((state) => state?.feature?.toShow)
+    const toShow = useSelector((state: any) => state?.feature?.toShow)
     console.log("Count:- ", toShow)
     const dispatch = useDispatch()
 

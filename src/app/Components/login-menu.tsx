@@ -10,7 +10,7 @@ import { counter } from './redux/slice/state';
 import AllList from './Student/Menu/allList';
 
 const LoginMenu = () => {
-    const toShow = useSelector((state) => state?.feature?.toShow)
+    const toShow = useSelector((state: any) => state?.feature?.toShow)
     // const [show, setShow] = useState(true)
     const [student, setStudent] = useState(false)
     const [parent, setParent] = useState(false)
@@ -113,16 +113,16 @@ const LoginMenu = () => {
                                         <th>Coming Soon</th>
                                     </tr>
                                 </table> */}
-                                <div tabIndex="0" className='content content-student' onClick={() => handleLogin("Student")}>
+                                <div tabIndex={0} className='content content-student' onClick={() => handleLogin("Student")}>
                                     Student
                                 </div>
-                                <div tabIndex="0" className='content' onClick={() => handleLogin("Parent")}>
+                                <div tabIndex={0} className='content' onClick={() => handleLogin("Parent")}>
                                     Parent
                                 </div>
-                                <div tabIndex="0" className='content' onClick={() => handleLogin("Teacher")}>
+                                <div tabIndex={0} className='content' onClick={() => handleLogin("Teacher")}>
                                     Teacher
                                 </div>
-                                <div tabIndex="0" className='content content-soon' onClick={() => handleLogin("Coming Soon")}>
+                                <div tabIndex={0} className='content content-soon' onClick={() => handleLogin("Coming Soon")}>
                                     Coming Soon
                                 </div>
                             </div>
