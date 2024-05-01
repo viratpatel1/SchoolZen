@@ -1,0 +1,70 @@
+.dashboard {
+    display: flex;
+}
+
+/* .msg {
+    position: relative;
+    left: 0;
+    top: 0;
+} */
+
+.student-detail {
+    flex: 5;
+    flex-direction: column;
+}
+
+.student-profile {
+    flex: 2;
+    border-left: 1px solid red;
+    margin-right: 2%;
+    height: 85vh;
+}
+
+.scores {
+    display: flex;
+    gap: 25px;
+    margin-left: 4%;
+    /* justify-content: space-evenly; */
+}
+
+.scores div {
+    /* background-color: #3BBFED; */
+    background-color: var(--background-start-rgb);
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    padding: 2% 0%;
+}
+
+.profile-div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    border: 1px solid rgb(201, 13, 13);
+
+}
+
+.profile-pic {
+    line-height: 40px;
+    margin-bottom: 5%;
+}
+
+.edit-btn {
+    cursor: pointer;
+    border: 1px solid rgb(201, 13, 13);
+    display: inline;
+}
+
+
+.profile-photo-img {
+    /* border: 1px solid rgb(114, 52, 52); */
+    border-radius: 50%;
+    cursor: none;
+}
+
+input {
+    /* width: 30px; */
+}

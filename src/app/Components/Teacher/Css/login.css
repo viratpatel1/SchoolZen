@@ -1,0 +1,14 @@
+.Teacher-div {
+    /* position: relative; */
+    /* left: 55%; */
+}
+
+.login-field {
+    display: grid;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}

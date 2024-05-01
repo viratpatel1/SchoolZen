@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .8% 3%;
+    background-color: var(--background-start-rgb);
+    text-align: center;
+    align-items: center;
+}
+
+.unversity,
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
